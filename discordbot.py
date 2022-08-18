@@ -59,4 +59,4 @@ async def on_message(message):
         await message.channel.send('This can be used anywhere!')
         return
 
-client.run(TOKEN)
+client.run(os.environ[DISCORD_TOKEN])
