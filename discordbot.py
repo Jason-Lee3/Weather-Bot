@@ -1,5 +1,6 @@
 import discord
 import requests
+import os
 
 API_KEY = '4a7fc725f0327e470a62e530c54f2871'
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
